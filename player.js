@@ -4,8 +4,15 @@ class Player{
 
   constructor(color){
     this.name;
-    this.color = color;
     this.wins = 0;
+
+    color = color.toLowerCase();
+    if(color === 'w' || color === 'white' || color === 'wht'){
+      this.color = 'w';
+    }
+    else if(color === 'b' || color === 'black' || color === 'blk'){
+      this.color = 'b';
+    }
   }
 
   incrementWins(){
