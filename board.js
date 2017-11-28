@@ -1,10 +1,10 @@
-var Piece = require('./piece.js').Piece;
-var King = require('./king.js').King;
-var Queen = require('./queen.js').Queen;
-var Pawn = require('./pawn.js').Pawn;
-var Knight = require('./knight.js').Knight;
-var Rook = require('./rook.js').Rook;
-var Bishop = require('./bishop.js').Bishop;
+var Piece = require('./piece/piece.js').Piece;
+var King = require('./piece/king.js').King;
+var Queen = require('./piece/queen.js').Queen;
+var Pawn = require('./piece/pawn.js').Pawn;
+var Knight = require('./piece/knight.js').Knight;
+var Rook = require('./piece/rook.js').Rook;
+var Bishop = require('./piece/bishop.js').Bishop;
 
 /*
  *
