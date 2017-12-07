@@ -21,9 +21,13 @@ The board is a standard 8x8 square chess board.  Unfortunately, since it is rend
 
 The board is divided into ranks and files like any other chess board.  The ranks are represented by numbers along the left side of the board and files are represented by letters across the bottom.
 
+![board](https://user-images.githubusercontent.com/22224664/33736873-8138152a-db51-11e7-9fa8-c34c568ee448.png)
+
+
+
 ### Algebraic Notation
 
-To enter a make a move, you will be using algebraic notation.  The general format for this is
+To enter a move, you will be using algebraic notation.  The general format for this is
 ```<piece><rank><file>```
 For example, if you wanted to move a pawn to D4, you would enter ```PD4```.  (Case does not matter.)
 
