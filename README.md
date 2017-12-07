@@ -23,7 +23,7 @@ The board is divided into ranks and files like any other chess board.  The ranks
 
 ![board](https://user-images.githubusercontent.com/22224664/33736873-8138152a-db51-11e7-9fa8-c34c568ee448.png)
 
-
+(You may disregard the ordered pair notation within the squares in the illustration above.)
 
 ### Algebraic Notation
 
@@ -34,6 +34,19 @@ For example, if you wanted to move a pawn to D4, you would enter ```PD4```.  (Ca
 Optionally, if you want to follow algebraic notation's tradition of denoting taking a piece with the use of 'x', you may do so (although it is not necessary).  For example, ```QxE6``` to represent the Queen taking the piece at position E6.
 
 If more than one piece of the same side may move to the same position, you will be prompted to be more specific in your notation.  You may then follow the ```<piece>``` portion with its own rank or file.  For example, if you have a Knight on position D5 as well as position G6 and you enter ```NF4``` (or ```NxF4```), you will see that either one can move to the target square.  When you are reprompted, you will need to specify ```NDF4``` or ```N5F4``` so the game knows which one to move.  File (letter) traditional takes precedence over rank (number), but either one will work.
+
+The codes for pieces are as follows (either uppercase or lowercase will work fine):
+
+| Piece   | Letter |
+| -----   | ------ |
+| King    | k      |
+| Queen   | q      |
+| Rook    | r      |
+| Knight  | n      |
+| Bishop  | b      |
+| Pawn    | p      |
+
+With the exception of the Knight being 'N', these are all pretty straightforward.
 
 ### Winning
 
